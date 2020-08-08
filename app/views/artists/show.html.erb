@@ -1,4 +1,4 @@
-<h1><%= @artist.songs %></h1>
+<h1><%= @artist.name %></h1>
 
 <h3>Category: <%= link_to @artist.songs.name, category_path(@artist.songs) if @artist.songs.present? %></h3>
 
