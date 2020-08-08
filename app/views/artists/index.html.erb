@@ -1,1 +1,3 @@
-<p><%= @artists.all %></p>
+<p><%= @artists.all.each do |artist| %></p>
+<p><%= artist.name %></p>
+<p><%= end %></p>
