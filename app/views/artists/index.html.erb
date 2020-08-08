@@ -1,1 +1,3 @@
-<%= @artists.all %>
+<%= @artists.each do |artist| %>
+<%= artist.song_count %>
+<%= end %>
